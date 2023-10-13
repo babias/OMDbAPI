@@ -1,0 +1,68 @@
+body {
+  background-image: url('images/background.jpg'); /* Relative path to the background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin: 0;
+}
+
+#header {
+  background-color: #333;  
+  padding: 10px;
+  width: 100%;   
+}
+
+#header h1{
+  color: #fff;  
+}
+
+#header h2{
+  font-size: 30px;  
+  color: red;
+  text-shadow: 1px 1px 2px whitesmoke;
+}
+
+#age-verification {
+  background-color: beige;
+  border-radius: 20px; 
+  box-shadow: 0 0 10px black;
+  width: 70%;
+  max-width: 700px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#verification-message {
+  color:red;
+  font-weight: bolder;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+
+.message-box {
+  display: none;
+  background-color: #f1f1f1;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  border-radius: 8px 8px 0 0;
+}

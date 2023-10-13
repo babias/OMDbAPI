@@ -1,0 +1,124 @@
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;   
+}
+
+#header {
+    background-color: rgb(12, 12, 12);
+    padding: 15px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    padding-right: 15px;
+}
+
+#header h1{
+   color: #fff;   
+   padding-left: 15px;  
+}
+
+#player-name {
+    color: red;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    height: 50px;
+    width: fit-content;
+    padding: 10px 30px 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.layout{
+    text-align: center;
+    padding: 25px;
+}
+
+.wrapper{
+    margin: auto;
+    width: fit-content;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    height: 120px;
+    width: 120px;
+    border: 2px solid black;
+    padding-top: 60px;
+    border-radius: 10px;
+    font-size: 3rem;
+    text-align: center;
+    box-shadow: 1px 1px 3px 1px black;
+    background-color: beige;
+}
+
+.back{
+    background-image: url('images/cards/BACK.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    margin: 30px;
+}
+
+.notification{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.notice{
+    height: 100px;
+    padding: 10px;
+    background:rgba(245, 245, 245, 0.616);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px rgb(0, 0, 0);
+}
+
+.notice p{
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    font-size: x-large;    
+}
+
+#dealer-score,#player-score,#tie-score, #deck-count {
+    font-size: 24px;
+    color: white;
+    margin: 10px;
+    
+}
+
+#next-hand {
+    width: fit-content; 
+    height: fit-content;    
+    text-align: center;    
+}

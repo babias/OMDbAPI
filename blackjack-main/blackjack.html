@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Blackjack ♥ ♣ ♦ ♠</title>
+    <link rel="stylesheet" href="blackjack.css">
+    <script src="blackjack.js" defer></script>
+</head>
+
+<body>
+    <div id="header">
+        <img class="logo" src="images/logo.png" alt="Logo Alt Text">
+        <h1>Welcome to the Blackjack Game, <span id="player-name"></span>!</h1>
+    </div>
+    <div class="layout">
+        <span id="deck-count">Cards left in deck:</span>
+        <div id="scoreboard">
+            <span id="dealer-score">Dealer: 0</span>
+            <span id="player-score">Player: 0</span>
+            <span id="tie-score">Ties: 0</span>
+        </div>
+        <h2>Dealer Hand</h2>
+        <div class="wrapper">
+            <div class="cards" id="dealer"></div>
+        </div>
+        <h2>Player Hand</h2>
+        <div class="wrapper">
+            <div class="cards" id="player"></div>
+        </div>
+        <div class="wrapper">
+            <div class="container" id="button-container">
+                <button id="hit">Hit/New</button>
+                <button id="pass">Pass/Stop</button>
+            </div>
+        </div>
+        <div class="notification" id="notice">
+            <div class="notice">
+                <p></p>
+                <button id="next-hand">Next Hand</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
